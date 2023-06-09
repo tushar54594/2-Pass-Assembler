@@ -12,6 +12,3 @@ C/C++
 ### For Output:
 - **symtab.txt** : Contains the symbols and the respective addresses from the source program.
 - **optab.txt** : Contains the opcodes and mnemonics for the mnemonics used in the source program. 
-
-**NOTE:**
-*The final output program and the object program are displayed in the terminal.*
