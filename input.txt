@@ -1,0 +1,14 @@
+COPY START 2000 
+**** STCH Char2,X 
+**** LDA FIVE 
+**** STA ALPHA 
+**** LDCH CHARZ 
+**** STCH Char1 
+**** RSUB **** 
+ALPHA RESW 2 
+FIVE WORD 5 
+CHARZ BYTE C'EOF' 
+CHARX BYTE X'F1' 
+Char1 RESB 2 
+Char2 RESB 4 
+**** END **** 
